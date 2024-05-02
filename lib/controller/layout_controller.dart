@@ -4,6 +4,8 @@ import '../model/app_state_model.dart';
 import '../view/layout_view.dart';
 
 class LayoutController extends StatelessWidget {
+  const LayoutController({super.key});
+  
   @override
   Widget build(BuildContext context) {
     return Consumer<AppStateModel>(builder: (context, appState, _) {
