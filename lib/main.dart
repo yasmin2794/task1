@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       create: (context) => AppStateModel(),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: LayoutController(), // Use the controller as the root widget
+        home: LayoutController(),
       ),
     );
   }
