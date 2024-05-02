@@ -4,7 +4,7 @@ import 'package:provider/provider.dart';
 import '../model/app_state_model.dart';
 
 class TabSection extends StatelessWidget {
-  String sectionname;
+  final String sectionname;
   TabSection({required this.sectionname});
 
   @override
